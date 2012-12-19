@@ -1,27 +1,16 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Welcome on board, soldier
+tagline: This is viking speaking
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## 牛逼的markdown 牛逼的github 牛逼的jekyll
 
-## Update Author Attributes
+用markdown的感觉真好 每个程序员都应该有一个github的静态博客啊~
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
+原来的博客还是会写 毕竟东西太多了 导过来也比较麻烦 这里用来写一些翻译的作品和原创的小说 还会把简历 项目经验 什么的放过来  
     
 ## Sample Posts
 
@@ -38,9 +27,5 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
