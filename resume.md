@@ -11,8 +11,8 @@ description: "a personal resume of viking"
 * 生于1987年
 * 河北张家口人
 * 前端开发工程师
-* 邮箱  vikingmute[at]gmail.com
-* 个人网站  http://www.vikingmute.com
+* 邮箱  vikingmute at gmail.com
+* 个人网站  [http://www.vikingmute.com](http://www.vikingmute.com "personal website")
 
 ##技能
 * 熟悉Javascript 能手写原生Javascript 熟悉Jquery
@@ -38,4 +38,10 @@ description: "a personal resume of viking"
 * 瑞典芬达斯 2009.7 - 2010.5
 
 ##介绍
-热爱互联网 喜欢前端开发 因为它发展很快 技术日新月异 同时也喜欢电影 摇滚乐 读书 运动 热火队和纽卡斯尔是我喜欢的球队 能背诵出每个球员的名字和位置
+热爱互联网 喜欢前端开发 因为它发展很快 技术日新月异 同时也喜欢电影 摇滚乐 读书 运动 热火队和纽卡斯尔是我喜欢的球队 能背诵出每个球员的名字和位置 RATM和Green Day是我喜欢的乐队
+
+##我在别处
+* [知乎](http://www.zhihu.com/people/vikingmute)
+* [github](https://github.com/vikingmute)
+* [微博](http://weibo.com/vikingmute)
+* [豆瓣](http://www.douban.com/people/viking.tuna/)
