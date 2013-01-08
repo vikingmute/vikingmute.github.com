@@ -8,11 +8,11 @@ description: "a personal resume of viking"
 #张轩简历
 
 ##基本资料
-* 生于1987
+* 生于1987年
 * 河北张家口人
 * 前端开发工程师
-* 邮箱vikingmute[at]gmail.com
-* 个人网站 http://www.vikingmute.com
+* 邮箱  vikingmute[at]gmail.com
+* 个人网站  http://www.vikingmute.com
 
 ##技能
 * 熟悉Javascript 能手写原生Javascript 熟悉Jquery
