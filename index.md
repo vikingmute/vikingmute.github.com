@@ -12,20 +12,15 @@ tagline: This is viking speaking
 
 原来的博客还是会写 毕竟东西太多了 导过来也比较麻烦 这里用来写一些翻译的作品和原创的小说 还会把简历 项目经验 什么的放过来  
     
-## Sample Posts
+## Resumes
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+* [中文版](http://vikingmute.github.com/resume.html)
+* [English version](http://vikingmute.github.com/resume_en.html)
 
-    $ rm -rf _posts/core-samples
 
-Here's a sample "posts list".
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+
+
 
 
 
