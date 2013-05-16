@@ -33,6 +33,10 @@ description: "a personal resume of viking"
 页面用纯HTML+JS（全异步）实现于服务器端交互，CSS3页面渲染和实现动画，使用HTML5的多项特性，Geo实现地理定位，sessionStorage实现session存储，
 服务端CORS解决跨域问题。同时使用zepto.js作为主框架开发 同时采用了优秀的第三方js插件（iscroll.js + hammer.js）。
 
+360旅游（和360合作项目）
+同360旅游合作 提供已经做好的web页面 以iframe的形式嵌入到go.360.com页面当中 在360中实现和多个旅游预订网站比价的功能（酷讯 elong等）
+现在已经上线 机票 和 酒店两个频道 项目地址 http://go.360.cn/
+
 * 新浪乐居 2010.7 - 2012.3
 
 * 瑞典芬达斯 2009.7 - 2010.5
