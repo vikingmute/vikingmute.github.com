@@ -4713,9 +4713,17 @@ a.counter:focus {
 .visible-print {
   display: none !important;
 }
-.pagination ul{
+
+.pagination ul li{
   display:inline-block;
   list-style-type: none;
+  margin-right:10px;
+}
+.pagination ul li.disabled a{
+  color:#efefef;
+}
+.pagination ul li.disabled a:hover{
+  color:#efefef;
 }
 
 @media print {
