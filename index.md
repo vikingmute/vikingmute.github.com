@@ -5,17 +5,26 @@ tagline: This is viking speaking
 ---
 {% include JB/setup %}
 
-
-## 牛逼的markdown 牛逼的github 牛逼的jekyll
-
-用markdown的感觉真好 每个程序员都应该有一个github的静态博客啊~
-
-原来的博客还是会写 毕竟东西太多了 导过来也比较麻烦 这里用来写一些翻译的作品和原创的小说 还会把简历 项目经验 什么的放过来  
+###I am a frond-end developer, I can write HTML+CSS+Javascript code with maintainability readability, and modularity.
     
 ## Resumes
+<ul class="listing">
+<li>
+  <span>Last updated Mar.13</span> <a href="http://vikingmute.github.com/resume.html">中文版</a>
+</li>
+<li>
+  <span>Last updated Mar.13</span> <a href="http://vikingmute.github.com/resume_en.html">English version</a>
+</li>
+</ul>
 
-* [中文版](http://vikingmute.github.com/resume.html)
-* [English version](http://vikingmute.github.com/resume_en.html)
+## Posts
+<ul class="listing">
+{% for post in site.posts %}
+<li>
+  <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ul>
 
 
 
