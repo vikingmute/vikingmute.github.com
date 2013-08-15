@@ -61,11 +61,10 @@ V.events.add() V.events.remove()  V.events.delegate() V.events.trigger() V.event
 * json的概念和示例
 * ajax的promise格式是指什么 
 * 写一个简单库 来实现基本的ajax功能(基本的和promise的都可以～)
-{%highlight javascript%}
 V.ajax({url:'a',method:'GET',dataType:'json',data:{'name':viking}},function(data){
        console.log(data)
 })
-{%endhighlight%}
+
 ##高级话题
 * js的代码复用模式 （传统继承和现代继承）详见javascript模式一书第六章
 * 你所理解的闭包（closure）是什么 有什么应用场景 解决些什么问题
