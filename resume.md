@@ -27,25 +27,31 @@ description: "a personal resume of viking"
 * 了解git和svn版本管理工具
 
 ##经验和项目
-# 百度 2013.8 - 
-百度特卖 （http://temai.baidu.com）
+
+**百度 2013.8 -**
+
+*百度特卖 [http://temai.baidu.com](http://temai.baidu.com)*
+
 百度知心项目 是目前市场上各种特卖商品的集合 并且已经商业化 通过大搜卡片导流
 
 整个项目使用baidu ecom fe组的产品构建 （https://github.com/ecomfe/）
+
 * 使用edp作为server 同时作为包管理器 和 build工具 
 * 使用esl作为脚本加载器 整个js基于AMD架构
 * 使用est作为样式库 基于less的基础上 提供了更多的mixin和功能
 * 使用backbone.js作为整个异步加载以后的处理 同时使用etpl作为模板引擎
 
-百度糯米PC端 （http://www.nuomi.com）
+*百度糯米PC端 [http://www.nuomi.com](http://www.nuomi.com)*
+
 中国前三大的团购网站
 
 整个项目使用fis作为开发框架 （http://fis.baidu.com/）
+
 * 使用fis作为server 包管理器 build工具 
 * 使用est作为样式库
 * 采用fisp（fis一个针对php+smarty的改良版）框架 提供更多好用的功能
 
-* 携程 2012.7 - 2013.7
+**携程 2012.7 - 2013.7**
 
 我的携程（和高德合作项目）
 内嵌于高德APP中的WebApp项目，以酒店搜索，周边酒店查询，酒店预定等功能和高德APP无缝接入
@@ -56,9 +62,9 @@ description: "a personal resume of viking"
 同360旅游合作 提供已经做好的web页面 以iframe的形式嵌入到go.360.com页面当中 在360中实现和多个旅游预订网站比价的功能（酷讯 elong等）
 现在已经上线 机票 和 酒店两个频道 项目地址 http://go.360.cn/
 
-* 新浪乐居 2010.7 - 2012.3
+**新浪乐居 2010.7 - 2012.3**
 
-* 瑞典芬达斯 2009.7 - 2010.5
+**瑞典芬达斯 2009.7 - 2010.5**
 
 ##介绍
 热爱互联网 喜欢前端开发 因为它发展很快 技术日新月异 同时也喜欢电影 摇滚乐 读书 运动 热火队和纽卡斯尔是我喜欢的球队 能背诵出每个球员的名字和位置 RATM和Green Day是我喜欢的乐队
