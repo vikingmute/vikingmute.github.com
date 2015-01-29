@@ -10,10 +10,10 @@ tagline: This is viking speaking
 ## Resumes
 <ul class="listing">
 <li>
-  <span>Last updated Mar.13</span> <a href="http://vikingmute.github.com/resume.html">中文版</a>
+  <span>Last updated 2015/01/28</span> <a href="http://vikingmute.github.com/resume.html">中文版</a>
 </li>
 <li>
-  <span>Last updated Mar.13</span> <a href="http://vikingmute.github.com/resume_en.html">English version</a>
+  <span>Last updated 2013/08/01</span> <a href="http://vikingmute.github.com/resume_en.html">English version</a>
 </li>
 </ul>
 
