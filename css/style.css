@@ -1,0 +1,110 @@
+* {
+  font-family: Roboto, 'Helvetica Neue', 'Segoe UI', Verdana, Tahoma, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+::selection {
+    background: #00ab6b;
+    color: #fff;
+}
+
+html {
+  font-size: 14px;
+  color: #777;
+}
+body {
+  margin-top: -20px;
+}
+header {
+  background: #faf5f0;
+  text-align: center;
+}
+.black {
+  color: #00ab6b;
+}
+.hoz-center {
+  margin: 0 auto;
+  width: 80%;
+}
+.header-inner {
+  padding: 2rem 0;
+  box-sizing: border-box;
+}
+.cvbutton {
+  display: block;
+  margin: 0 auto;
+  width: 10rem;
+  box-sizing: border-box;
+  height: 2em;
+  line-height: 2em;
+  background: #00ab6b;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0.2rem;
+  transition: all 0.3s ease-in;
+}
+.cvbutton:hover {
+  background: #02CE82;
+}
+.container {
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.container ul {
+  padding: 0;
+  list-style-type: none;
+}
+.container ul li {
+  line-height: 2rem;
+}
+.container .sub {
+  padding: 0.3rem 1rem;
+}
+.container ul a {
+  background: #faf5f0;
+  color: #777;
+  transition: all 0.3s ease-in;
+}
+.container .sub a:hover {
+  background: #00ab6b;
+  color: #fff;
+  text-decoration: none;
+}
+.links {
+  padding: 0;
+}
+.links li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 1.3rem;
+}
+.links li a {
+  font-size: 1.3rem;
+  transition: all 0.3s ease-in;
+  color: #999;
+}
+
+.links li a:hover {
+  color: #00ab6b;
+}
+
+@media only screen and (min-width: 321px) {
+    html {
+        font-size: 15px !important;
+    }
+}
+@media only screen and (min-width: 376px) {
+    html {
+        font-size: 16px !important;
+    }
+}
+@media only screen and (min-width: 414px) {
+    html {
+        font-size: 17px !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+  .hoz-center {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
