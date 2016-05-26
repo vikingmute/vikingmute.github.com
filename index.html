@@ -5,62 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <base target="_blank">
     <title>Another front end developer</title>
-    <link rel="stylesheet" href="./css/normalize.css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="./css/font-awesome.min.css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="./css/style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="https://use.typekit.net/c/5028ff/1w;franklin-gothic-urw,7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191,VYp:W:i4,VYr:W:i5,VYt:W:i7,VYw:W:i9,WMV:W:n3,VYn:W:n4,VyZ:W:n5,VYs:W:n7,VYv:W:n9/l" media="all">
+    <link rel="stylesheet" href="./dist/css/main.css" media="screen" charset="utf-8">
   </head>
   <body>
     <header>
-      <div class="header-inner hoz-center">
-        <h1 class="black">Viking Zhang</h1>
-        <p>I am a frond-end developer.</p>
-        <p>I love to create interesting stuff with the lastest web technology.</p>
-        <ul class="links">
-          <li><a href="https://github.com/vikingmute"><i class="fa fa-github"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/vikingmute"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://www.instagram.com/vikingmute/"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa fa-share"></i></a></li>
-        </ul>
-        <div class="cv">
-          <a href="#" class="cvbutton"><i class="fa fa-file-text-o"></i> Download CV</a>
+      <div class="header-inner hoz-center clearfix">
+        <div class="right-area">
+          <ul class="links">
+            <li><a href="https://github.com/vikingmute"><i class="fa fa-github animated"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/vikingmute"><i class="fa fa-linkedin animated"></i></a></li>
+            <li><a href="https://www.instagram.com/vikingmute/"><i class="fa fa-instagram animated"></i></a></li>
+            <li><a href="https://www.twitter.com/vikingmute"><i class="fa fa-twitter animated"></i></a></li>
+          </ul>
+        </div>
+        <div class="left-area">
+          <h1>I love to create interesting stuff with the latest web technology.</h1>
+          <p>I am Viking Zhang, a front end developer.</p>
+          <div class="contact">
+            <a href="./resume.pdf" class="cvbutton" download="newfilename"><i class="fa fa-file-text-o"></i> Download CV</a>
+            <a href="mailto:vikingmute@gmail.com" class="cvbutton"><i class="fa fa-envelope-o"></i> Email Me</a>
+          </div>
         </div>
       </div>
     </header>
     <div class="container hoz-center">
-      <h3 class="black"><i class="fa fa-code"></i> Skills</h3>
-      <ul>
-        <li>Specialize in vanilla Javascript(ES6) and some popular frameworks:
-          <ul class="sub">
-            <li><a href="http://emberjs.com/" title="A framework for creating ambitious web applications">Ember.js</a></li>
+      <div class="section-title">
+        <h3><i class="fa fa-code"></i> Skills</h3>
+      </div>
+      <ul class="list clearfix">
+        <li class="cate">
+          <h3>Javascript</h3>
+          Specialize in vanilla Javascript(ES6) and some popular frameworks:
+          <ul class="sub-h">
             <li><a href="https://facebook.github.io/react/" title="A JavaScript library for building user interfaces">React</a>
               + <a href="https://github.com/reactjs/redux" title="Predictable state container for JavaScript apps">Redux</a></li>
+            <li><a href="http://emberjs.com/" title="A framework for creating ambitious web applications">Ember.js</a></li>
             <li><a href="http://backbonejs.org/" title="Backbone.js gives structure to web applications by providing models with key-value binding and custom events">Backbone.js</a></li>
             <li><a href="https://jquery.com/" title="jQuery: The Write Less, Do More, JavaScript Library.">jQuery</a></li>
           </ul>
+          Have some knowledge with <a href="https://nodejs.org/" title="Event-driven I/O server-side JavaScript environment based on V8.">Node.js</a>, using <a href="http://expressjs.com/" title="Sinatra inspired web development framework for node.js.
+">Express</a> to ship some projects.
         </li>
 
-        <li>
+        <li class="cate">
+          <h3> Workflow</h3>
           Using morden workflow to create web apps:
-          <ul class="sub">
+          <ul class="sub-v">
             <li><a href="https://webpack.github.io/" title="webpack is a module bundler">Webpack</a> as Bundler</li>
             <li><a href="https://www.npmjs.com/" title="Package manager. Installs, publishes and manages node programs.
 ">Npm</a> as Package Manager</li>
             <li><a href="https://babeljs.io/" title="The compiler for writing next generation JavaScript.">Babel</a> as ES6 Compiler</li>
           </ul>
         </li>
-        <li> Semantic, modular, and robust HTML+CSS code.</li>
-          <ul class="sub">
-            <li>CSS preprocessor: <a href="http://sass-lang.com/" title="An extension of CSS that adds power and elegance to the basic language.">Sass</a></li>
+        <li class="cate">
+          <h3>CSS</h3>
+          Semantic, modular, and robust HTML+CSS code.
+          <ul class="sub-v">
+            <li>Using CSS preprocessor: <a href="http://sass-lang.com/" title="An extension of CSS that adds power and elegance to the basic language.">Sass</a></li>
+            <li>And some lightweight mixin: <a href="http://bourbon.io/" title="A simple and lightweight mixin library for Sass.
+">Bourbon</a></li>
+            <li>And also using <a href="http://postcss.org/" title="Transforming styles with JS plugins
+            ">PostCSS</a> to transform some styles. </li>
           </ul>
-        <li> Familiar with HTTP </li>
-        <li> Code with Mac </li>
+        </li>
+        <li class="cate">
+          <h3>Others</h3>
+          <ul class="sub-v">
+            <li>Familiar with HTTP </li>
+            <li>Mac user </li>
+            <li>Collaborate with Git</li>
+          </ul>
+        </li>
       </ul>
-      <h3 class="black"><i class="fa fa-pencil"></i> Writings</h3>
-      <ul>
-        <li><a href="http://zhuanlan.zhihu.com/FrontendMagazine">Frontend Magazine</a> (a.k.a 知乎: 前端外刊评论) </li>
-      </ul>
+      <div class="section-title">
+        <h3><i class="fa fa-pencil"></i> Writings</h3>
+      </div>
+      <div class="writings">
+        <ul>
+          <li><a href="http://zhuanlan.zhihu.com/FrontendMagazine">Frontend Magazine</a> (a.k.a 知乎: 前端外刊评论) </li>
+          <li><a href="https://github.com/vikingmute/webpack-for-fools">Webpack for fools</a> (a.k.a Webpack傻瓜式指南) </li>
+        </ul>
+      </div>
     </div>
     <footer>
+      Made with <i class="fa fa-heart red-heart"></i> using <a href="https://github.com/vikingmute/vikingmute.github.com">Github pages</a> and Npm scripts
     </footer>
   </body>
 </html>

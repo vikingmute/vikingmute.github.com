@@ -1,0 +1,28 @@
+{
+  "name": "vikingmute.github.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "watch:css": "onchange 'src/scss/*.scss' -- npm run scss",
+    "serve": "browser-sync start --server --files 'dist/css/*.css' 'index.html'",
+    "watch:all": "parallelshell 'npm run serve' 'npm run watch:css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikingmute/vikingmute.github.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikingmute/vikingmute.github.com/issues"
+  },
+  "homepage": "https://github.com/vikingmute/vikingmute.github.com#readme",
+  "devDependencies": {
+    "node-sass": "^3.7.0",
+    "onchange": "^2.4.0",
+    "parallelshell": "^2.0.0"
+  }
+}
